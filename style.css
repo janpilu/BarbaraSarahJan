@@ -1,5 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 .nav-wrapper{
-	background-color: #2293F2 !important;
+	background-color: #001BA2 !important;
+}
+
+.page-footer{
+	background-color: #001BA2 !important;
 }
