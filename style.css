@@ -7,3 +7,18 @@
 .page-footer{
 	background-color: #001BA2 !important;
 }
+
+.banner{
+	width: auto;
+}
+
+.banner img{
+	width: 100%;
+	height: auto;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.text{
+	padding-left: 1%;
+}
