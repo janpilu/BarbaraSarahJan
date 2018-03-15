@@ -1,85 +1,199 @@
- <!DOCTYPE html>
- <html>
-    <head>
-       <title>The Materialize Example</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
-       <meta name = "viewport" content = "width = device-width, initial-scale = 1">
-       <link rel = "stylesheet"
-          href = "https://fonts.googleapis.com/icon?family=Material+Icons">
-       <link rel = "stylesheet"
-          href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
-       <script type = "text/javascript"
-          src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
-       <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
-       </script>
-    </head>
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+      <title>The Materialize Example</title>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <link rel = "stylesheet"
+         href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel = "stylesheet"
+         href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+      <script type = "text/javascript"
+         src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+      </script>
+   </head>
 
-    <body>
-
-       <!--Import jQuery before materialize.js-->
-
-       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-       <script type="text/javascript" src="js/materialize.min.js"></script>
-
-
-       <nav class="nav-extended">
-           <div class="nav-wrapper" id = "hallo">
-
-			   
-            <a href="#!" class="brand-logo"><img src="TGM.png" alt="TGM" width="10%" height="auto"></a>
-             <a href="#" data-activates="mobile-demo" class="button-collapse"><em class="material-icons">menu</em></a>
-                         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-            <!-- Compiled and minified JavaScript -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-            <script>
-                $(".button-collapse").sideNav();
-            </script>
-             <ul class="side-nav" id="mobile-demo">
-               <li><a href="lageplan.html">Lageplan</a></li>
-               <li><a href="impressum.html">Impressum</a></li>
-               <li><a href="kontakte.html">Kontakte</a></li>
-             </ul>
+   <body>
+     <div class="divider"></div>
+     <div class="section">
+         <h5>Allgemein</h5>
+         <p>Stuff</p>
+     </div>
+     <div class="divider"></div>
+     <div class="section">
+         <h5>Anmeldung</h5>
+         <p>Stuff</p>
+     </div>
+     <div class="divider"></div>
+     <div class="section">
+         <h5 id="Tagesschule">Tagesschule </h5>
+         <div class="row">
+           <div class="col s2 offset-s2">
+             <div class="card">
+                <div class="card-image">
+                   <img src="Tagesschule/Biomedizin.jpg">
+                   <span class="card-title">Biomedizin</span>
+                </div>
+                <div class="card-content">
+                  <p>Infos zu Biomedizin</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">Link zu Biomedizin</a>
+                </div>
+             </div>
+          </div>
+              <div class="col s2">
+                 <div class="card">
+                    <div class="card-image">
+                     <img src="Tagesschule/Elektronik.jpg">
+                     <span class="card-title">Elektronik</span>
+                    </div>
+                    <div class="card-content">
+                      <p>Infos zu Elektronik</p>
+                    </div>
+                   <div class="card-action">
+                     <a href="#">Link zu Elektronik</a>
+                   </div>
+                </div>
            </div>
 
-         </nav>
-
-
-
-
-         <nav>
-             <div class="nav-wrapper">
-
-               <ul id="nav-mobile" class="left hide-on-med-and-down">
-                 <li><a href="#Tagesschule">Tagesschule</a></li>
-                 <li><a href="#Abenschule">Abenschule</a></li>
-                 <li><a href="#Kolleg">Kolleg</a></li>
-                 <li><a href="#Projekte/News">Projekte/News</a></li>
-                 <li><a href="#Werkstätte">Werkstätte</a></li>
-                <li><a href="#Versuchsanstallt">Versuchsanstallt</a></li>
-
-               </ul>
-
-               <ul class="side-nav" id="mobile-demo">
-                 <li><a href="sass.html">Sass</a></li>
-                 <li><a href="badges.html">Components</a></li>
-                 <li><a href="collapsible.html">Javascript</a></li>
-                 <li><a href="mobile.html">Mobile</a></li>
-               </ul>
+            <div class="col s2 offset-2">
+              <div class="card">
+                 <div class="card-image">
+                  <img src="Tagesschule/ElektrotechnikRichtig.jpg">
+                  <span class="card-title">Elektrotechnik ing</span>
+                 </div>
+                 <div class="card-content">
+                   <p>Infos zu Elektrotechnik ing</p>
+                 </div>
+                <div class="card-action">
+                  <a href="#">Link zu Elektrotechnik ing</a>
+                </div>
              </div>
-           </nav>
+           </div>
+         </div>
+     </div>
 
+     <div class="row">
+       <div class="col s2 offset-s2">
+         <div class="card">
+            <div class="card-image">
+               <img src="Tagesschule/Informationstechnologie.jpg">
+               <span class="card-title">Informatik</span>
+            </div>
+            <div class="card-content">
+              <p>Infos zu Informatik</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Link zu Informatik</a>
+            </div>
+         </div>
+      </div>
+          <div class="col s2">
+             <div class="card">
+                <div class="card-image">
+                 <img src="Tagesschule/Kunststofftechnik.jpg">
+                 <span class="card-title">Kunststofftechnik</span>
+                </div>
+                <div class="card-content">
+                  <p>Infos zu Kunststofftechnik</p>
+                </div>
+               <div class="card-action">
+                 <a href="#">Link zu Kunststofftechnik</a>
+               </div>
+            </div>
+       </div>
+       <div class="col s2">
+          <div class="card">
+             <div class="card-image">
+              <img src="Tagesschule/Maschienenbau.jpg">
+              <span class="card-title">Maschienenbau</span>
+             </div>
+             <div class="card-content">
+               <p>Infos zu Maschienenbau</p>
+             </div>
+            <div class="card-action">
+              <a href="#">Link zu Maschienenbau</a>
+            </div>
+         </div>
+       </div>
 
+        <div class="col s2 offset-2">
+          <div class="card">
+             <div class="card-image">
+              <img src="Tagesschule/Wirtschaftsingeniore.jpg">
+              <span class="card-title">Wirtschaft ing</span>
+             </div>
+             <div class="card-content">
+               <p>Infos zu Wirtschaft ing</p>
+             </div>
+            <div class="card-action">
+              <a href="#">Link zu Wirtschaft ing</a>
+            </div>
+         </div>
+       </div>
+     </div>
+     <div class="divider"></div>
+     <div class="section">
+         <h5 id="Abendschule">Abendschule</h5>
+         <div class="row">
+           <div class="col s2">
+         	   <div class="card">
+           		  <div class="card-image">
+            	     <img src="Abendschule/Info.jpg">
+               </div>
+           	    <div class="card-content">
+             	    <p>Infos zu Werkstätte</p>
+           	    </div>
+                <div class="card-action">
+                  <a href="#">Link zu Infos zu Werkstätte</a>
+                </div>
+             </div>
 
-
-
-
-
-
-
-
-
-
-    </body>
-
- </html>
+          </div>
+          <div class="col s2">
+             <div class="card">
+                <div class="card-image">
+                 <img src="Abendschule/Vorbereitung.jpg">
+                </div>
+                <div class="card-content">
+                  <p>Infos zur Vorbereitung der Abendschule</p>
+                </div>
+               <div class="card-action">
+                 <a href="#">Link zur Vorbereitung</a>
+               </div>
+            </div>
+       </div>
+       <div class="col s2">
+          <div class="card">
+             <div class="card-image">
+              <img src="Tagesschule/Elektrotechnik.jpg">
+              <span class="card-title">Elektronik</span>
+             </div>
+             <div class="card-content">
+               <p>Infos zu Elektrotechnik</p>
+             </div>
+            <div class="card-action">
+              <a href="#">Link zu Elektrotechnik</a>
+            </div>
+         </div>
+       </div>
+     </div>
+    <div class="divider"></div>
+    <div class="section">
+        <h5 id="Kollegs" >Kollegs</h5>
+        <p>Stuff</p>
+    </div>
+    <div class="divider"></div>
+    <div class="section">
+        <h5 id="Werkstätte" >Werkstätte</h5>
+        <p>Stuff</p>
+    </div>
+    <div class="divider"></div>
+    <div class="section">
+        <h5 id="Versuchsanstallt" >Versuchsanstallt</h5>
+        <p>Stuff</p>
+    </div>
+  </body>
+</html>
